@@ -8,7 +8,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
-    "sanity": "npx tsx scripts/sanity-rpm.ts"
+    "sanity": "npx tsx scripts/sanity-rpm.ts && npx tsx scripts/sanity-stiks.ts",
+    "sanity:rpm": "npx tsx scripts/sanity-rpm.ts",
+    "sanity:stiks": "npx tsx scripts/sanity-stiks.ts"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",

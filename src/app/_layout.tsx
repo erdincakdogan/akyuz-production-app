@@ -71,6 +71,15 @@ export default function RootLayout() {
             }}
           />
           <Tabs.Screen
+            name="stiks-oee"
+            options={{
+              title: 'Stiks OEE',
+              tabBarIcon: ({ focused }) => (
+                <TabIcon label="▣" focused={focused} />
+              ),
+            }}
+          />
+          <Tabs.Screen
             name="notlar"
             options={{
               title: 'Notlar',
